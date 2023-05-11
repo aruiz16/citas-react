@@ -1,0 +1,10 @@
+Para instalar los componentes necesarios para utilizar el framework de tailwindcss:
+    - npm i -D tailwindcss postcss autoprefixer 
+
+Se tiene que configurar los archivos que utilizarán el framework, modificando el archivo tailwind.config.js 
+
+
+Notas: 
+    useState -> estado de la aplicación o del componente ( useState() )
+    useEffect -> es un callback que se ejecuta cuando un state cambia o un componente esta listo
+    
