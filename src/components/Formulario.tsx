@@ -26,9 +26,7 @@ const Formulario = ({pacientes, setPacientes, paciente, setPaciente}: any) => {
     const fecha = Date.now().toString(36);
     return random + fecha;
   }
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-
+  const handleSubmit = () => {
     // Validación formulario
     if ( [nombre, propietario, email, fecha, sintomas].includes('') ) {
       setError(true);

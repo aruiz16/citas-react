@@ -1,12 +1,12 @@
 const Paciente = ({paciente, setPaciente, eliminarPaciente}: any) => {
 
-    const handleEliminar = () => {
-        const respuesta = confirm('¿Deseas eliminar este paciente?');
+  const handleEliminar = () => {
+    const respuesta = confirm('¿Deseas eliminar este paciente?');
 
-        if ( respuesta ) {
-            eliminarPaciente(paciente.id)
-        }
+    if ( respuesta ) {
+        eliminarPaciente(paciente.id)
     }
+  }
   return (
     <div className="m-3 bg-white my-10 shadow-md px-5 py-10 rounded-xl">
         <p className="font-bold mb-3 text-gray-700 uppercase">
